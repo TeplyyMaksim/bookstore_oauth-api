@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2ffc6983-6408-4521-b24b-9923502ebe56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/application.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/create_token.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/get_token_by_id.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clents/cassandra/cassandra_db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/access_token/access_token.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/access_token/access_token_service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/access_token/access_token_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/user/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/http_access_token.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository/db/db_repository.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository/rest/users_repository.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository/rest/users_repository_test.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hroXwzKRG4bISoxbHhqQgz1dvR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/repository/rest" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/http" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8001/oauth/access_token/abc123" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8001/oauth/access_token" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;access_token&quot;: &quot;abc123&quot;,&#10;  &quot;user_id&quot;: 1,&#10;  &quot;client_id&quot;: 2,&#10;  &quot;expires&quot;: 123&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8001/oauth/access_token" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;access_token&quot;: &quot;abc123&quot;,&#10;  &quot;user_id&quot;: 1,&#10;  &quot;client_id&quot;: 2&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8001/oauth/access_token" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;access_token&quot;: &quot;abc123&quot;,&#10;  &quot;user_id&quot;: 1,&#10;  &quot;client_id&quot;: 2,&#10;  &quot;expires&quot;: 123&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8001/oauth/access_token" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;access_token&quot;: &quot;abc123&quot;,&#10;  &quot;user_id&quot;: 1,&#10;  &quot;client_id&quot;: 2&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8001/oauth/access_token" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;access_token&quot;: &quot;abc123&quot;,&#10;  &quot;user_id&quot;: 1,&#10;  &quot;client_id&quot;: 2,&#10;  &quot;expires&quot;: 123,&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8001/oauth/access_token" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;access_token&quot;: &quot;abc123&quot;,&#10;  &quot;user_id&quot;: 1,&#10;  &quot;client_id&quot;: 2,&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8001/oauth/access_token/11" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8001/oauth/access_token/asddsa" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8001/oauth/access_token/" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Test.users_repository_test.go">
+    <configuration name="TestLoginErrorInterface in github.com/TeplyyMaksim/bookstore_oauth-api/repository/rest (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bookstore_oauth-api" />
+      <working_directory value="$PROJECT_DIR$/repository/rest" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/TeplyyMaksim/bookstore_oauth-api/repository/rest" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestLoginErrorInterface\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestLoginErrorInterface in github.com/TeplyyMaksim/bookstore_oauth-api/repository/rest (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bookstore_oauth-api" />
+      <working_directory value="$PROJECT_DIR$/repository/rest" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/TeplyyMaksim/bookstore_oauth-api/repository/rest" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestLoginErrorInterface\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestLoginErrorInterface in github.com/TeplyyMaksim/bookstore_oauth-api/repository/rest" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bookstore_oauth-api" />
+      <working_directory value="$PROJECT_DIR$/repository/rest" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/TeplyyMaksim/bookstore_oauth-api/repository/rest" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestLoginErrorInterface\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test github.com/TeplyyMaksim/bookstore_oauth-api/repository/rest" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bookstore_oauth-api" />
+      <working_directory value="$PROJECT_DIR$/repository/rest" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/TeplyyMaksim/bookstore_oauth-api/repository/rest" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="users_repository_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bookstore_oauth-api" />
+      <working_directory value="$PROJECT_DIR$/repository/rest" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="github.com/TeplyyMaksim/bookstore_oauth-api" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/repository/rest/users_repository_test.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.users_repository_test.go" />
+        <item itemvalue="Go Test.go test github.com/TeplyyMaksim/bookstore_oauth-api/repository/rest" />
+        <item itemvalue="Go Test.TestLoginErrorInterface in github.com/TeplyyMaksim/bookstore_oauth-api/repository/rest (2)" />
+        <item itemvalue="Go Test.TestLoginErrorInterface in github.com/TeplyyMaksim/bookstore_oauth-api/repository/rest (1)" />
+        <item itemvalue="Go Test.TestLoginErrorInterface in github.com/TeplyyMaksim/bookstore_oauth-api/repository/rest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1335" y="-1532" width="1336" height="1432" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1603141783013">
+      <screen x="-1435" y="-1669" width="3008" height="1669" />
+    </state>
+    <state x="-1335" y="-1532" width="1336" height="1432" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.877/-1435.-1669.3008.1669@-1435.-1669.3008.1669" timestamp="1603141783013" />
+    <state x="-968" y="-1009" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602784869159">
+      <screen x="-1435" y="-1669" width="3008" height="1669" />
+    </state>
+    <state x="-968" y="-1009" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/-1435.-1669.3008.1669@-1435.-1669.3008.1669" timestamp="1602784869159" />
+    <state width="1494" height="479" key="GridCell.Tab.0.bottom" timestamp="1603144037748">
+      <screen x="-1435" y="-1669" width="3008" height="1669" />
+    </state>
+    <state width="1494" height="479" key="GridCell.Tab.0.bottom/0.23.1440.877/-1435.-1669.3008.1669@-1435.-1669.3008.1669" timestamp="1603144037748" />
+    <state width="1494" height="479" key="GridCell.Tab.0.center" timestamp="1603144037747">
+      <screen x="-1435" y="-1669" width="3008" height="1669" />
+    </state>
+    <state width="1494" height="479" key="GridCell.Tab.0.center/0.23.1440.877/-1435.-1669.3008.1669@-1435.-1669.3008.1669" timestamp="1603144037747" />
+    <state width="1494" height="479" key="GridCell.Tab.0.left" timestamp="1603144037747">
+      <screen x="-1435" y="-1669" width="3008" height="1669" />
+    </state>
+    <state width="1494" height="479" key="GridCell.Tab.0.left/0.23.1440.877/-1435.-1669.3008.1669@-1435.-1669.3008.1669" timestamp="1603144037747" />
+    <state width="1494" height="479" key="GridCell.Tab.0.right" timestamp="1603144037747">
+      <screen x="-1435" y="-1669" width="3008" height="1669" />
+    </state>
+    <state width="1494" height="479" key="GridCell.Tab.0.right/0.23.1440.877/-1435.-1669.3008.1669@-1435.-1669.3008.1669" timestamp="1603144037747" />
+    <state x="-966" y="-1061" width="604" height="490" key="find.popup" timestamp="1603204134219">
+      <screen x="-1435" y="-1669" width="3008" height="1669" />
+    </state>
+    <state x="-966" y="-1061" width="604" height="490" key="find.popup/0.23.1440.877/-1435.-1669.3008.1669@-1435.-1669.3008.1669" timestamp="1603204134219" />
+    <state x="-824" y="-1043" key="refactoring.ChangeSignatureDialog" timestamp="1603036513713">
+      <screen x="-1435" y="-1669" width="3008" height="1669" />
+    </state>
+    <state x="-824" y="-1043" key="refactoring.ChangeSignatureDialog/0.23.1440.877/-1435.-1669.3008.1669@-1435.-1669.3008.1669" timestamp="1603036513713" />
+    <state x="-1002" y="-1253" width="670" height="676" key="search.everywhere.popup" timestamp="1603635033432">
+      <screen x="-1435" y="-1669" width="3008" height="1669" />
+    </state>
+    <state x="-1002" y="-1253" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-1435.-1669.3008.1669@-1435.-1669.3008.1669" timestamp="1603635033432" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/bookstore_oauth_api$users_repository_test_go.out" NAME="users_repository_test.go Coverage Results" MODIFIED="1603143927278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/bookstore_oauth_api$go_test_bookstore_oauth_api.out" NAME="go test bookstore_oauth-api Coverage Results" MODIFIED="1602763897118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

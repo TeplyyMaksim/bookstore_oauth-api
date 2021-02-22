@@ -1,0 +1,455 @@
+GET http://localhost:8001/oauth/access_token/abc123
+Accept: application/json
+
+<> 2020-10-18T065014.200.json
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Content-Type: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2,
+  "expires": 123
+}
+
+<> 2020-10-18T064847.201.json
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Content-Type: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2,
+  "expires": 123
+}
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Content-Type: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2,
+  "expires": 123
+}
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Content-Type: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2,
+  "expires": 123
+}
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Content-Type: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2
+}
+
+<> 2020-10-18T064506.400.json
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Accept: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2,
+  "expires": 123
+}
+
+<> 2020-10-18T064259.400.json
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Accept: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2,
+  "expires": 123
+}
+
+<> 2020-10-18T064031.400.json
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Accept: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2
+}
+
+<> 2020-10-18T064028.400.json
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Accept: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2,
+  "expires": 123
+}
+
+<> 2020-10-18T064021.400.json
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Accept: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2,
+  "expires": 123,
+}
+
+<> 2020-10-18T063932.400.json
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Accept: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2,
+  "expires": 123,
+}
+
+<> 2020-10-18T062556.400.json
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Accept: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2,
+  "expires": 123,
+}
+
+<> 2020-10-18T062554.400.json
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Accept: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2,
+  "expires": 123,
+}
+
+<> 2020-10-18T062529.400.json
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Accept: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2,
+  "expires": 123,
+}
+
+<> 2020-10-18T062523.400.json
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Accept: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2,
+  "expires": 123,
+}
+
+<> 2020-10-18T062522.400.json
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Accept: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2,
+  "expires": 123,
+}
+
+<> 2020-10-18T062424.400.json
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Accept: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2,
+  "expires": 123,
+}
+
+<> 2020-10-18T062308.400.json
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Accept: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2,
+  "expires": 123,
+}
+
+<> 2020-10-18T062303.400.json
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Accept: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2,
+  "expires": 123,
+}
+
+<> 2020-10-18T062257.400.json
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Accept: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2,
+  "expires": 123,
+}
+
+<> 2020-10-18T062115.400.json
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Accept: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2,
+  "expires": 123,
+}
+
+<> 2020-10-18T062043.400.json
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Accept: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2,
+  "expires": 123,
+}
+
+<> 2020-10-18T061949.400.json
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Accept: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2,
+  "expires": 123,
+}
+
+<> 2020-10-18T061941.400.json
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Accept: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2,
+}
+
+<> 2020-10-18T061924.400.json
+
+###
+
+POST http://localhost:8001/oauth/access_token
+Accept: application/json
+
+{
+  "access_token": "abc123",
+  "user_id": 1,
+  "client_id": 2,
+}
+
+<> 2020-10-18T061853.404.json
+
+###
+
+GET http://localhost:8001/oauth/access_token/11
+Accept: application/json
+
+<> 2020-10-18T023955.500.json
+
+###
+
+GET http://localhost:8001/oauth/access_token/11
+Accept: application/json
+
+<> 2020-10-18T023953.500.json
+
+###
+
+GET http://localhost:8001/oauth/access_token/11
+Accept: application/json
+
+<> 2020-10-18T023952.500.json
+
+###
+
+GET http://localhost:8001/oauth/access_token/11
+Accept: application/json
+
+<> 2020-10-18T023951.500.json
+
+###
+
+GET http://localhost:8001/oauth/access_token/11
+Accept: application/json
+
+<> 2020-10-18T023949.500.json
+
+###
+
+GET http://localhost:8001/oauth/access_token/11
+Accept: application/json
+
+###
+
+GET http://localhost:8001/oauth/access_token/11
+Accept: application/json
+
+<> 2020-10-18T023943.500.json
+
+###
+
+GET http://localhost:8001/oauth/access_token/11
+Accept: application/json
+
+<> 2020-10-18T023941.500.json
+
+###
+
+GET http://localhost:8001/oauth/access_token/11
+Accept: application/json
+
+<> 2020-10-18T023330.500.json
+
+###
+
+GET http://localhost:8001/oauth/access_token/11
+Accept: application/json
+
+<> 2020-10-18T022530.500.json
+
+###
+
+GET http://localhost:8001/oauth/access_token/11
+Accept: application/json
+
+<> 2020-10-16T113224.500.json
+
+###
+
+GET http://localhost:8001/oauth/access_token/11
+Accept: application/json
+
+<> 2020-10-16T113027.500.json
+
+###
+
+GET http://localhost:8001/oauth/access_token/11
+Accept: application/json
+
+<> 2020-10-15T090334.500.json
+
+###
+
+GET http://localhost:8001/oauth/access_token/asddsa
+Accept: application/json
+
+<> 2020-10-15T090326.500.json
+
+###
+
+GET http://localhost:8001/oauth/access_token/
+Accept: application/json
+
+<> 2020-10-15T090306.404.json
+
+###
+
+GET http://localhost:132333/oauth/access_token/
+Accept: application/json
+
+###
+

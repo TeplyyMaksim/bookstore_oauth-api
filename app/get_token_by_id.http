@@ -1,0 +1,5 @@
+# Get token from db
+GET http://localhost:8001/oauth/access_token/abc123
+Accept: application/json
+
+###
